@@ -18,21 +18,21 @@ GW2Base follows much of the conventions set by the ArenaNet developers at https:
 It provides access to the API through various methods defined in GW2Data.
 
 ### Dynamic Events
-GW2Data.events(world_id = "", map_id = "", event_id = "")
-GW2Data.event_names(lang = "en")
-GW2Data.map_names(lang = "en")
-GW2Data.world_names(lang = "en")
+    GW2Data.events(world_id = "", map_id = "", event_id = "")
+    GW2Data.event_names(lang = "en")
+    GW2Data.map_names(lang = "en")
+    GW2Data.world_names(lang = "en")
 
 ### WvW
-GW2Data.matches
-GW2Data.match_details(match_id)
-GW2Data.objective_names(lang = "en")
+    GW2Data.matches
+    GW2Data.match_details(match_id)
+    GW2Data.objective_names(lang = "en")
 
 ### Items and Recipes
-GW2Data.items
-GW2Data.item_details(item_id, lang = "en")
-GW2Data.recipes
-GW2Data.recipe_details(recipe_id)
+    GW2Data.items
+    GW2Data.item_details(item_id, lang = "en")
+    GW2Data.recipes
+    GW2Data.recipe_details(recipe_id)
 
 ## Contributing
 
