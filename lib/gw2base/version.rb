@@ -1,3 +1,3 @@
-module Gw2base
-  VERSION = "0.0.1"
+module GW2Base
+  VERSION = "0.1.0"
 end

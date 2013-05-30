@@ -6,19 +6,33 @@ GW2Base is a gem that wraps the official Guild Wars 2 API and provides an easy w
 
 Add this line to your application's Gemfile:
 
-    gem 'gw2base'
+    gem 'gw2base', :github => 'illianthe/gw2base'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install gw2base
-
 ## Usage
 
-TODO: Write usage instructions here
+GW2Base follows much of the conventions set by the ArenaNet developers at https://forum-en.guildwars2.com/forum/community/api/API-Documentation.
+It provides access to the API through various methods defined in GW2Data.
+
+### Dynamic Events
+GW2Data.events(world_id = "", map_id = "", event_id = "")
+GW2Data.event_names(lang = "en")
+GW2Data.map_names(lang = "en")
+GW2Data.world_names(lang = "en")
+
+### WvW
+GW2Data.matches
+GW2Data.match_details(match_id)
+GW2Data.objective_names(lang = "en")
+
+### Items and Recipes
+GW2Data.items
+GW2Data.item_details(item_id, lang = "en")
+GW2Data.recipes
+GW2Data.recipe_details(recipe_id)
 
 ## Contributing
 

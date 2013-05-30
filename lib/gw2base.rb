@@ -1,5 +1,6 @@
 require "gw2base/version"
+require "gw2base/connection"
+require "gw2base/data"
 
-module Gw2base
-  # Your code goes here...
-end
+# Alias methods for easier access
+GW2Data = GW2Base::Data
